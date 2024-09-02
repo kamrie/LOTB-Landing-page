@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'Trebuchet MS';
+}
+
+
+#first-section{
+        background-image:linear-gradient(hsla(0, 0%, 0%, 0.5)
+        ,hsla(0, 0%, 0%, 0)), url(/img/background\ img.png);
+        background-size: cover;
+        background-position:center center;
+        background-attachment: fixed;
+        height: 80vh;
+        /* position:relative */
+        margin-bottom: 110px;
+}
+
+.main-section{
+    display: flex; 
+    justify-content:center ;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    color: white;
+    margin: 0px 50px;
+}
+
+.main-section .menu{
+    display: flex;
+
+    margin-bottom: 270px;
+    position: bottom;
+    
+ 
+   
+}
+
+.main-section .menu h5{
+     margin-left: 9px;
+    margin-right: 5px;
+    /* position: -webkit-sticky; */
+    /* top: 7; */
+    /* background-color: red; */     
+
+}
+
+.menu h5 a{
+        /* list-style:none ; */
+        color: white;     
+         border-bottom-style:none;
+       text-decoration: none;
+}
+
+#second-section{
+    padding-bottom: 80px;
+}
+
+
+#third-section{
+    display: ;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-left: auto;
+    /* width: 89%; */
+    position: relative;
+
+
+}
+#third-section .city-img{
+
+    /* box-shadow: 1px 3px 12px 1px; */
+
+}
+
+#third-section div{
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow: 1px 3px 12px 1px; */
+    position: absolute;
+    bottom:10rem;
+    right: 290px;
+    height: 30vh;
+    /* font: 90px; */
+}
+
+#third-section div a{
+    /* font-size: 99px; */   
+
+}
